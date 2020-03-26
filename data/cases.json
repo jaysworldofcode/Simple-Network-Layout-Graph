@@ -1,0 +1,53 @@
+{    
+	"nodes": [
+{
+  "id": 1,
+  "type": "Plane",
+  "label": "Plane"
+},
+{
+  "id": 2,
+  "type": "Woman",
+  "label": "Case1"
+},
+{
+  "id": 3,
+  "type": "Man",
+  "label": "Case2"
+},
+{
+  "id": 4,
+  "type": "Man",
+  "label": "Case3"
+},
+{
+  "id": 5,
+  "type": "Woman",
+  "label": "Case4"
+},
+{
+  "id":6,
+  "type": "Place",
+  "label": "San Juan Church"
+},
+{
+  "id":7,
+  "type": "Man",
+  "label": "Case5"
+},
+{
+  "id":8,
+  "type": "Woman",
+  "label": "Case6"
+}
+    ],
+    "edges": [
+      {"from": 1, "to": 2, "arrows": "to"},
+      {"from": 1, "to": 3, "arrows": "to"},
+      {"from": 2, "to": 4, "arrows": "to"},
+      {"from": 2, "to": 5, "arrows": "to"},
+      {"from": 4, "to": 6, "arrows": "to", "dashes": true },
+      {"from": 6, "to": 7, "arrows": "to"},
+      {"from": 6, "to": 8, "arrows": "to"}
+    ]
+}
